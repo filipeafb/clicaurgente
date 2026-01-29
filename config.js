@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "RITA",
+    valentineName: RITA,
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "BABY URGENTE, PRECISO DA TUA AJUDA",
+    pageTitle: BABY URGENTE, PRECISO DA TUA AJUDA,
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,36 +22,36 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Amas-me?",                                    // First interaction
-            yesBtn: "Sim",                                             // Text for "Yes" button
-            noBtn: "Não, és bue tótó",                                               // Text for "No" button
-            secretAnswer: "FDZ CLARO QUE SIM CARALHO, ÉS O MAIOR"           // Secret hover message
+            text: Amas-me?,                                    // First interaction
+            yesBtn: Sim,                                             // Text for "Yes" button
+            noBtn: Não, és bue tótó,                                               // Text for "No" button
+            secretAnswer: FDZ CLARO QUE SIM CARALHO, ÉS O MAIOR           // Secret hover message
         },
         second: {
-            text: "O Quanto me amas?",                          // For the love meter
-            startText: "Muitoooo",                                   // Text before the percentage
-            nextBtn: "Proximo ❤️"                                         // Text for the next button
+            text: O Quanto me amas?,                          // For the love meter
+            startText: Muitoooo,                                   // Text before the percentage
+            nextBtn: Proximo ❤️                                         // Text for the next button
         },
         third: {
-            text: "Aceitas ser a minha Valentine, dia 14.02.2026? 🌹", // The big question!
-            yesBtn: "SIMMMMMMM OMDS",                                             // Text for "Yes" button
-            noBtn: "Não bro, sai fora"                                                 // Text for "No" button
+            text: Aceitas ser a minha Valentine, dia 14 Fevereiro 2026? 🌹, // The big question!
+            yesBtn: SIMMMMMMM OMDS,                                             // Text for "Yes" button
+            noBtn: Não bro, sai fora                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "NOSSAA, SERIO QUE ME AMAS ASSIM TANTOOO 🥰🚀💝",  // Shows when they go past 5000%
-        high: "Aposto que é so porque minha piroca é grande 💝",              // Shows when they go past 1000%
-        normal: "UaaaauUUUU, tantooo"                           // Shows when they go past 100%
+        extreme: NOSSAA, SERIO QUE ME AMAS ASSIM TANTOOO 🥰🚀💝,  // Shows when they go past 5000%
+        high: Aposto que é so porque minha piroca é grande 💝,              // Shows when they go past 1000%
+        normal: UaaaauUUUU, tantooo                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "YEAAA, AGORA TEMOS MARCADO UM DATEEEE UHHH 🎉💝💖💝💓",
-        message: "E Sexo tambem",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: YEAAA, AGORA TEMOS MARCADO UM DATEEEE UHHH 🎉💝💖💝💓,
+        message: E Sexo tambem,
+        emojis: 🎁💖🤗💝💋❤️💕  // These will bounce around
     },
 
     // Color scheme for the website
